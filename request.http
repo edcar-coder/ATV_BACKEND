@@ -1,0 +1,44 @@
+###  Rota para listar produtos
+GET http://localhost:3000/
+Content-Type: application/json
+
+###
+
+### Rota para listar produtos
+POST  http://localhost:3000/
+Content-Type: application/json
+
+{
+    "id":2,
+    "nome":"Monitor 25' Medio ",
+    "preco": 1500,
+    "Quantiodade":8
+}
+
+###
+
+### Rota para listar produtos
+POST  http://localhost:3000/
+Content-Type: application/json
+
+{
+    "id":5,
+    "nome":"Monitor 28'  extra",
+    "preco": 1700,
+    "Quantiodade":3
+}
+
+###
+
+### Rota para listar produtos
+PUT  http://localhost:3000/1
+Content-Type: application/json
+
+{
+    "id":6,
+    "novoNome":"Monitor 43' editado ",
+    "nvovPreco": 2500,
+    "novaQuantiodade":9
+}
+
+###
